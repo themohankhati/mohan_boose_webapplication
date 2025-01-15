@@ -1,5 +1,5 @@
 {
-  "source_base_path": "C:/Users/mohan/Desktop/L6/dotnet/final_assessment/ase_assessment",
+  "source_base_path": "C:/Users/mohan/Desktop/L6/dotnet/final_assessment",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,6 +9,26 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "BOOSE_WebApplication/wwwroot/lib/jquery-validation/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSE_WebApplication/wwwroot/lib/jquery-validation/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -365,10 +385,113 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.ArrayTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.ArrayTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.ForTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.ForTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.IfTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.IfTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.IntTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.IntTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.MethodTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.MethodTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.RealTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.RealTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/unit_testing.WhileTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/unit_testing.WhileTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/unit_testing.yml",
       "output": {
         ".html": {
           "relative_path": "api/unit_testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ase_assessment/docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "ase_assessment/docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ase_assessment/docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "ase_assessment/docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "ase_assessment/docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ase_assessment/docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "ase_assessment/docs/toc.json"
         }
       },
       "version": ""
