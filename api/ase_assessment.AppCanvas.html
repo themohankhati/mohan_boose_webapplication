@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AppCanvas | Mohan&#39;s ASE Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AppCanvas | Mohan&#39;s ASE Documentation ">
+      
+      <meta name="description" content="Represents a canvas for drawing shapes and lines with a customizable pen color. Implements the Icanvas interface.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/new/main/apiSpec/new?filename=ase_assessment_AppCanvas.md&amp;value=---%0Auid%3A%20ase_assessment.AppCanvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Mohan&#39;s ASE Documentation">
+            Mohan&#39;s ASE Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ase_assessment.AppCanvas">
+
+
+
+  <h1 id="ase_assessment_AppCanvas" data-uid="ase_assessment.AppCanvas" class="text-break">
+Class AppCanvas  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ase_assessment.html">ase_assessment</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ase_assessment.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a canvas for drawing shapes and lines with a customizable pen color.
+Implements the Icanvas interface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AppCanvas : ICanvas</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AppCanvas</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICanvas</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ase_assessment_AppCanvas__ctor_" data-uid="ase_assessment.AppCanvas.#ctor*"></a>
+
+  <h3 id="ase_assessment_AppCanvas__ctor" data-uid="ase_assessment.AppCanvas.#ctor">
+  AppCanvas()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Intializes a new instance of the class AppCanvas</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppCanvas()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ase_assessment_AppCanvas_PenColour_" data-uid="ase_assessment.AppCanvas.PenColour*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_PenColour" data-uid="ase_assessment.AppCanvas.PenColour">
+  PenColour
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Color of the pen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object PenColour { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_Xpos_" data-uid="ase_assessment.AppCanvas.Xpos*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Xpos" data-uid="ase_assessment.AppCanvas.Xpos">
+  Xpos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the X position of the pen on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Xpos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_Ypos_" data-uid="ase_assessment.AppCanvas.Ypos*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Ypos" data-uid="ase_assessment.AppCanvas.Ypos">
+  Ypos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the Y position of the pen on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Ypos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ase_assessment_AppCanvas_Circle_" data-uid="ase_assessment.AppCanvas.Circle*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Circle_System_Int32_System_Boolean_" data-uid="ase_assessment.AppCanvas.Circle(System.Int32,System.Boolean)">
+  Circle(int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a circle on the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Circle(int radius, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The radius of the circle.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indicates whether the cirlce should be filled</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Exception is thrown wehn the radius is negavtive.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ase_assessment_AppCanvas_Clear_" data-uid="ase_assessment.AppCanvas.Clear*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Clear" data-uid="ase_assessment.AppCanvas.Clear">
+  Clear()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clears the canvas and resets to default color Gray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_DrawTo_" data-uid="ase_assessment.AppCanvas.DrawTo*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_DrawTo_System_Int32_System_Int32_" data-uid="ase_assessment.AppCanvas.DrawTo(System.Int32,System.Int32)">
+  DrawTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws to the X and Y position from current pen position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawTo(int toX, int toY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>toX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>X coordinates of the end point.</p>
+</dd>
+    <dt><code>toY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Y coordinates of the end point.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Throws error when pen size is less than 0 and greater than canvas size.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ase_assessment_AppCanvas_MoveTo_" data-uid="ase_assessment.AppCanvas.MoveTo*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_MoveTo_System_Int32_System_Int32_" data-uid="ase_assessment.AppCanvas.MoveTo(System.Int32,System.Int32)">
+  MoveTo(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Moves from initial position to X, Y coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveTo(int x, int y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>X coordinates to move pen to.</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Y coordinates to move pen to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Throws error when pen position is outside the canvas.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ase_assessment_AppCanvas_Polygon_" data-uid="ase_assessment.AppCanvas.Polygon*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Polygon_System_Collections_Generic_List_System_Drawing_Point__" data-uid="ase_assessment.AppCanvas.Polygon(System.Collections.Generic.List{System.Drawing.Point})">
+  Polygon(List&lt;Point&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw a polygon based on a list of points.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Polygon(List&lt;Point&gt; points)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.point">Point</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_Rect_" data-uid="ase_assessment.AppCanvas.Rect*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="ase_assessment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)">
+  Rect(int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws rectangle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Rect(int width, int height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width of the rectangle.</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height of the rectangle.</p>
+</dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Denotes either rectangle is filled or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="ase_assessment_AppCanvas_Reset_" data-uid="ase_assessment.AppCanvas.Reset*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Reset" data-uid="ase_assessment.AppCanvas.Reset">
+  Reset()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resets the canvas to initial state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_Set_" data-uid="ase_assessment.AppCanvas.Set*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Set_System_Int32_System_Int32_" data-uid="ase_assessment.AppCanvas.Set(System.Int32,System.Int32)">
+  Set(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the canvas size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(int xsize, int ysize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xsize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>New width of the canvas.</p>
+</dd>
+    <dt><code>ysize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>New weight of the canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_SetColour_" data-uid="ase_assessment.AppCanvas.SetColour*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="ase_assessment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)">
+  SetColour(int, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the pen color with the use of RGB values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColour(int red, int green, int blue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>red</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>green</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>blue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <a id="ase_assessment_AppCanvas_Tri_" data-uid="ase_assessment.AppCanvas.Tri*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_Tri_System_Int32_System_Int32_" data-uid="ase_assessment.AppCanvas.Tri(System.Int32,System.Int32)">
+  Tri(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draws a triagle with specified height and weight in the current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Tri(int width, int height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Width of the triangle</p>
+</dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Height of the triangle</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Throws error when</p>
+</dd>
+  </dl>
+
+
+
+  <a id="ase_assessment_AppCanvas_WriteText_" data-uid="ase_assessment.AppCanvas.WriteText*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_WriteText_System_String_" data-uid="ase_assessment.AppCanvas.WriteText(System.String)">
+  WriteText(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes text in the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Text that to be written on the canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ase_assessment_AppCanvas_getBitmap_" data-uid="ase_assessment.AppCanvas.getBitmap*"></a>
+
+  <h3 id="ase_assessment_AppCanvas_getBitmap" data-uid="ase_assessment.AppCanvas.getBitmap">
+  getBitmap()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fetch the current bitmap which reprents the canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object getBitmap()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>Bitmap image of the canvas.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ASE-Classroom/ase-demo-assignment-themohankhati/blob/main/ase_assessment/AppCanvas.cs/#L13" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
